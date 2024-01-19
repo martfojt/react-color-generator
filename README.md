@@ -6,4 +6,4 @@ This project is a React application that generates randomly colored block, along
 
 ## Usage
 
-Simply click on "Generate" button.
+Simply click "Generate" button.
