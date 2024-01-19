@@ -1,3 +1,4 @@
+import './style.css';
 import React from 'react';
 import GenerateColor from './components';
 
@@ -10,24 +11,12 @@ export default function App() {
     // Update the key to a new value to force re-render of GenerateColor
     setKey((prevKey) => prevKey + 1);
   };
-  // Style object for the button container
-  const buttonStyle = {
-    display: 'flex',
-    justifyContent: 'center',
-    marginTop: '20px',
-    marginLeft: '15px',
-    width: '300px',
-  };
-  // Style object for the main container
-  const container = {
-    width: '300px',
-  };
 
   // Rendering the main app component
   return (
-    <div style={container}>
+    <div className="buttonStyle">
       <GenerateColor key={`color-${key}`} />
-      <div style={buttonStyle}>
+      <div className="buttonStyle">
         <button onClick={generateNewColor}>Generate</button>
       </div>
     </div>
