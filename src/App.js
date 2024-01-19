@@ -1,6 +1,6 @@
-import './style.css';
 import React from 'react';
 import GenerateColor from './components';
+import logo from './logo.svg';
 
 export default function App() {
   // State for tracking the key used to re-render the GenerateColor component
@@ -14,7 +14,7 @@ export default function App() {
 
   // Rendering the main app component
   return (
-    <div className="buttonStyle">
+    <div className="container">
       <GenerateColor key={`color-${key}`} />
       <div className="buttonStyle">
         <button onClick={generateNewColor}>Generate</button>

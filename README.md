@@ -7,3 +7,14 @@ This project is a React application that generates randomly colored block, along
 ## Usage
 
 Simply click on "Generate" button.
+
+ // Rendering the main app component
+  return (
+    <div className="buttonStyle">
+      <GenerateColor key={`color-${key}`} />
+      <div className="buttonStyle">
+        <button onClick={generateNewColor}>Generate</button>
+      </div>
+    </div>
+  );
+}
