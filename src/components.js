@@ -12,7 +12,8 @@ export default function GenerateColor() {
     setColor(newColor);
   }, []);
 
-  // Style object for the color display block
+  // Style object for the color display block. Needs to stay here because of "backgroundColor: color," - can't figure out a way
+  // to put it to style.css?
   const blockStyle = {
     backgroundColor: color,
     color: 'white',
