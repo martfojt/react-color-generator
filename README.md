@@ -21,3 +21,5 @@ This runs the app in development mode. Open http://localhost:3000 to view it in 
 ## Usage
 
 Simply click "Generate" button.
+
+![Alt text](<Screenshot 2024-01-19 at 13.49.51.png>)
