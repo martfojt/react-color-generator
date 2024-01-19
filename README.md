@@ -2,7 +2,21 @@
 
 ## Overview
 
-This project is a React application that generates randomly colored block, along with a hexadecimal value in the middle of the block.
+This project is a React application that generates randomly colored block, along with a hexadecimal value in the middle.
+
+## Installation
+
+Before running the app, make sure you have Node.js installed.
+
+Clone the repository or download the source code.
+Navigate to the project directory and run npm install to install dependencies.
+
+## Running the app
+
+In the project directory, run:
+> npm start
+
+This runs the app in development mode. Open http://localhost:3000 to view it in the browser.
 
 ## Usage
 
