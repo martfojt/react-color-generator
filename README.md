@@ -14,7 +14,7 @@ Navigate to the project directory and run npm install to install dependencies.
 ## Running the app
 
 In the project directory, run:
-> npm start
+> pnpm start
 
 This runs the app in development mode. Open http://localhost:3000 to view it in the browser.
 
