@@ -1,6 +1,5 @@
 import React from 'react';
 import GenerateColor from './components';
-import logo from './logo.svg';
 
 export default function App() {
   // State for tracking the key used to re-render the GenerateColor component
